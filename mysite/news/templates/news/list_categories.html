@@ -1,0 +1,10 @@
+<div class="col-md-2 m-md-3 mb-3">
+    <div class="list-group">
+        {% for cat in categories %}
+            <a class="list-group-item list-group-item-action {% if current_cat and cat.id == current_cat.id %}active" aria-current="true{% endif %}"
+               href="{{ cat.get_absolute_url }}">{{ cat.title }}
+                <span class="badge bg-primary rounded-pill justify-content-between">{{ cat.news_count }}</span>
+            </a>
+        {% endfor %}
+    </div>
+</div>

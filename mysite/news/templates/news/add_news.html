@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load news_tags %}
+
+{% block title %}
+    Добавить
+{% endblock %}
+
+{% block sidebar %}
+    {% show_list_categories %}
+{% endblock %}
+
+{% block content %}
+    <h1>Добавление новости</h1>
+
+    <form action="{% url 'add_news' %}" method="post">
+    {% csrf_token %}
+
+    {{ form.as_p }}
+
+        <div class="d-grid col-6 mx-auto">
+            <input type="submit" class="btn btn-primary" value="Добавить">
+        </div>
+    </form>
+{% endblock %}
