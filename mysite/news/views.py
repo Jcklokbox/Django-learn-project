@@ -52,7 +52,7 @@ def send_message(request):
                       'sonicogamer@yandex.ru', ('jcklokbox@gmail.com',), fail_silently=True)
             if mail:
                 messages.success(request, 'Сообщение успешно отправлено!')
-                return redirect('feedback')
+                return ('feedback')
             else:
                 messages.error(request, 'Ошибка отправки.')
     else:
