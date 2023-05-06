@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fe5bf87c-5645-4246-a84e-33b6fc1edd9a" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2EWZhR5Rj0ZjXEI9TQkdkWA0DI2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe5bf87c-5645-4246-a84e-33b6fc1edd9a" name="Changes" comment="" />
+      <created>1662713448710</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662713448710</updated>
+      <workItem from="1662713450931" duration="543000" />
+      <workItem from="1662714476903" duration="169000" />
+      <workItem from="1662721068596" duration="600000" />
+      <workItem from="1662797278993" duration="648000" />
+      <workItem from="1662808100651" duration="644000" />
+      <workItem from="1662831314087" duration="3681000" />
+      <workItem from="1662888604052" duration="4912000" />
+      <workItem from="1662978245221" duration="3637000" />
+      <workItem from="1663063330111" duration="2312000" />
+      <workItem from="1663524508548" duration="129000" />
+      <workItem from="1667112928612" duration="3115000" />
+      <workItem from="1667126844435" duration="5585000" />
+      <workItem from="1667135218938" duration="5401000" />
+      <workItem from="1667215375654" duration="7397000" />
+      <workItem from="1667299578166" duration="61000" />
+      <workItem from="1677222314987" duration="16042000" />
+      <workItem from="1677352213308" duration="2289000" />
+      <workItem from="1677686324056" duration="2431000" />
+      <workItem from="1677694826407" duration="2146000" />
+      <workItem from="1677768011896" duration="262000" />
+      <workItem from="1678459787083" duration="5596000" />
+      <workItem from="1678535745739" duration="601000" />
+      <workItem from="1678714470895" duration="1105000" />
+      <workItem from="1678715669281" duration="81000" />
+      <workItem from="1678715851164" duration="272000" />
+      <workItem from="1678716134583" duration="2434000" />
+      <workItem from="1678730802803" duration="6428000" />
+      <workItem from="1678794779635" duration="635000" />
+      <workItem from="1678800888281" duration="3683000" />
+      <workItem from="1678887296728" duration="3344000" />
+      <workItem from="1679078907165" duration="2135000" />
+      <workItem from="1679155703965" duration="3300000" />
+      <workItem from="1679320905543" duration="6422000" />
+      <workItem from="1679406830671" duration="4366000" />
+      <workItem from="1681657582974" duration="2784000" />
+      <workItem from="1681900293391" duration="13267000" />
+      <workItem from="1681973438936" duration="2128000" />
+      <workItem from="1683235277493" duration="419000" />
+      <workItem from="1683367089594" duration="1026000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TerminalProjectNonSharedOptionsProvider">
+    <option name="startingDirectory" value="E:\PycharmProjects\djangoProject\mysite\" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

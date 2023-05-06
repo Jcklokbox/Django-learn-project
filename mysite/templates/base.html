@@ -1,0 +1,79 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}
+
+    {% endblock %}</title>
+    <link href="{% static 'bootstrap/css/bootstrap.css' %}" rel="stylesheet">
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+</head>
+<body>
+{% include 'inc/_nav.html' %}
+<div class="container mt-3">
+    <div class="row">
+        {% block sidebar %}
+            SIDEBAR
+        {% endblock %}
+
+        <div class="col">
+            {% block content %}
+                {% for item in news %}
+                    <div class="card mb-3">
+                        <div class="card-header">
+                            Категория:
+                            <a {% block content_url %}
+                                href="{{ item.category.get_absolute_url }}"
+                                class="text-decoration-none"
+                            {% endblock %}
+                            >
+                                {{ item.category }}
+                            </a>
+                        </div>
+                        <div class="card-body row">
+                            {% if item.photo %}
+                                <div class="media col-lg-auto">
+                                    <img src="{{ item.photo.url }}" width="225" alt="">
+                                </div>
+                            {% endif %}
+                            <div class="col"><h5 class="card-title">{{ item.title }}</h5>
+                                <div class="media-body mt-3">
+                                    <p class="card-text">{{ item.content|truncatewords:34 }}</p>
+                                    <a href="{{ item.get_absolute_url }}" class="btn btn-primary">Читать далее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+                {% if page_obj.has_other_pages %}
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination justify-content-center">
+                            {% if page_obj.has_previous %}
+                            <li class="page-item">
+                                <a class="page-link" href="?page=1" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="?page={{ page_obj.previous_page_number }}">{{ page_obj.previous_page_number }}</a></li>
+                                {% endif %}
+                            <li class="page-item active"><a class="page-link" href="#">{{ page_obj.number }}</a></li>
+                            {% if page_obj.has_next %}
+                            <li class="page-item"><a class="page-link" href="?page={{ page_obj.next_page_number }}">{{ page_obj.next_page_number }}</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="?page={{ page_obj.paginator.num_pages }}" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                                {% endif %}
+                        </ul>
+                    </nav>
+                {% endif %}
+            {% endblock %}
+        </div>
+    </div>
+</div>
+<script src="{% static 'bootstrap/js/bootstrap.bundle.js' %}"></script>
+</body>
+</html>
